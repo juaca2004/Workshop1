@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Frontend de prueba</title>
+</head>
+<body>
+  <h1>Frontend ✅</h1>
+  <p>Si ves esta página, el <strong>frontend</strong> está OK.</p>
+  <pre id="hello"></pre>
+  <pre id="db"></pre>
+
+  <script>
+    async function load() {
+      const hello = await fetch("/api/hello").then(r => r.json()).catch(e => ({ error: e.message }));
+      document.getElementById("hello").textContent = JSON.stringify(hello, null, 2);
+
+      const db = await fetch("/api/db").then(r => r.json()).catch(e => ({ error: e.message }));
+      document.getElementById("db").textContent = JSON.stringify(db, null, 2);
+    }
+    load();
+  </script>
+</body>
+</html>
