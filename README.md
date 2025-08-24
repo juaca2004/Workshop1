@@ -6,4 +6,4 @@
 - Sergio florez
 - Santiago Hernandez
 
-  **Estudiante de Ingeniería Telemática**
+  **Estudiantes de Ingeniería Telemática**
