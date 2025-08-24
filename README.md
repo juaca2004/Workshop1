@@ -3,7 +3,7 @@
 ## 👨‍💻 Autores
 
 - Samuel Barona 
-- Sergio florez
+- Sergio Florez
 - Santiago Hernandez
 
   **Estudiantes de Ingeniería Telemática**
