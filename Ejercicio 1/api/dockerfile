@@ -1,0 +1,5 @@
+FROM httpd:alpine
+
+# Página básica
+RUN echo '<h1>Hola, soy la API</h1>' > /usr/local/apache2/htdocs/index.html
+
